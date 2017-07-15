@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "cd node;node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts2kt": "./node_modules/.bin/ts2kt -d types/node node_modules/@types/node/index.d.ts",
     "ts2ktauto": "./node_modules/.bin/ts2kt-automator --dest=src/main/kotlin/types chalk"
   },
   "author": "",

@@ -1,0 +1,22 @@
+{
+  "name": "kotlinjsdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts2kt": "./node_modules/.bin/ts2kt -d types/node node_modules/@types/node/index.d.ts",
+    "ts2ktauto": "./node_modules/.bin/ts2kt-automator --dest=src/main/kotlin/types chalk"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^0.4.31",
+    "@types/node": "^6.0.78",
+    "ts2kt-automator": "^1.0.4"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "kotlin": "^1.1.0"
+  }
+}
